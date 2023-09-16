@@ -105,7 +105,7 @@ main {
   height: fit-content;
 
   width: 43rem;
-
+  width: clamp(15rem, 21rem + 19vw, 50rem);
   margin-bottom: 3.1rem;
 }
 
