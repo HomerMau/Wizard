@@ -35,6 +35,7 @@ main,
 .buttons,
 .secondary-articles {
   display: flex;
+  align-items: center;
 }
 
 header {
