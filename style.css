@@ -102,6 +102,12 @@ main {
   align-items: center;
 }
 
+.main-text {
+
+    width: clamp(15rem, 21rem + 19vw, 50rem);
+
+}
+
 .main-cat {
   height: fit-content;
 
@@ -145,7 +151,7 @@ main p {
   font-size: 1.6rem;
   font-weight: 400;
   width: 38rem;
-  width: clamp(13rem, 30rem, 30rem + 15vw);
+  width: clamp(15rem, 21rem + 19vw, 50rem);
   line-height: 2.6rem;
 
   margin-bottom: 3.4rem;
@@ -262,13 +268,15 @@ main p {
 
   .main-text {
     display: flex;
-    align-items: baseline;
-    gap: 36.5rem;
+    width: 70rem;
     margin-bottom: 2.5rem;
+    gap: 10rem;
+  
   }
 
   .main-text h1 {
     line-height: 3.8rem;
+    text-align: center;
   }
 
   .buttons {
