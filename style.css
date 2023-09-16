@@ -144,7 +144,7 @@ main p {
   font-size: 1.6rem;
   font-weight: 400;
   width: 38rem;
-
+  width: clamp(13rem, 35rem, 30rem + 15vw);
   line-height: 2.6rem;
 
   margin-bottom: 3.4rem;
